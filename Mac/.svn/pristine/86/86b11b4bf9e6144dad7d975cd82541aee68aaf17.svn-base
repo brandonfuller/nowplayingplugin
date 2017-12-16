@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAppleScriptBuildPhase section */
+		CAFF6C0D09BE1787002D7702 /* AppleScript */ = {
+			isa = PBXAppleScriptBuildPhase;
+			buildActionMask = 2147483647;
+			contextName = "";
+			files = (
+				CAFF6C0E09BE1787002D7702 /* NowPlaying.applescript in AppleScript */,
+			);
+			isSharedContext = 0;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXAppleScriptBuildPhase section */
+
+/* Begin PBXBuildFile section */
+		CA09F06413DD454A0057ED28 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA09F06313DD454A0057ED28 /* OpenGL.framework */; };
+		CA09F15C13DD455B0057ED28 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA09F15B13DD455B0057ED28 /* Cocoa.framework */; };
+		CA09F16A13DD45F70057ED28 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA09F16913DD45F70057ED28 /* Carbon.framework */; };
+		CA1FEC3F102A788200CBBB87 /* hmac_sha256.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1FEC3D102A788200CBBB87 /* hmac_sha256.c */; };
+		CA1FEC40102A788200CBBB87 /* hmac_sha256.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1FEC3E102A788200CBBB87 /* hmac_sha256.h */; };
+		CA1FEC4E102A790200CBBB87 /* b64.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1FEC4A102A790200CBBB87 /* b64.c */; };
+		CA1FEC4F102A790200CBBB87 /* b64.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1FEC4B102A790200CBBB87 /* b64.h */; };
+		CA1FEC50102A790200CBBB87 /* sha2.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1FEC4C102A790200CBBB87 /* sha2.c */; };
+		CA1FEC51102A790200CBBB87 /* sha2.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1FEC4D102A790200CBBB87 /* sha2.h */; };
+		CA2D2B9413DD2645004D1F41 /* UserInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = CA2D2B9313DD2645004D1F41 /* UserInterface.mm */; };
+		CA2D2BB313DD276E004D1F41 /* NowPlaying.h in Headers */ = {isa = PBXBuildFile; fileRef = CA2D2BB213DD276E004D1F41 /* NowPlaying.h */; };
+		CA5D355B162781AC008C335A /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5D355A162781AC008C335A /* Logger.m */; };
+		CA5D355D1627829B008C335A /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5D355C1627829B008C335A /* Logger.h */; };
+		CA9C96E9111B3A8600945C3A /* hmac_sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = CA9C96DF111B3A8600945C3A /* hmac_sha1.c */; };
+		CA9C96EA111B3A8600945C3A /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9C96E0111B3A8600945C3A /* hmac.h */; };
+		CA9C96EB111B3A8600945C3A /* memxor.c in Sources */ = {isa = PBXBuildFile; fileRef = CA9C96E1111B3A8600945C3A /* memxor.c */; };
+		CA9C96EC111B3A8600945C3A /* memxor.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9C96E2111B3A8600945C3A /* memxor.h */; };
+		CA9C96ED111B3A8600945C3A /* oauth.c in Sources */ = {isa = PBXBuildFile; fileRef = CA9C96E3111B3A8600945C3A /* oauth.c */; };
+		CA9C96EE111B3A8600945C3A /* oauth.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9C96E4111B3A8600945C3A /* oauth.h */; };
+		CA9C96EF111B3A8600945C3A /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = CA9C96E5111B3A8600945C3A /* sha1.c */; };
+		CA9C96F0111B3A8600945C3A /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9C96E6111B3A8600945C3A /* sha1.h */; };
+		CA9C96F1111B3A8600945C3A /* xmalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = CA9C96E7111B3A8600945C3A /* xmalloc.c */; };
+		CA9C96F2111B3A8600945C3A /* xmalloc.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9C96E8111B3A8600945C3A /* xmalloc.h */; };
+		CAA3C49813E65D4100A4AC33 /* iTunesAPI-20.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA2D2B4513DD2173004D1F41 /* iTunesAPI-20.cpp */; };
+		CAA3C4A913E65E3E00A4AC33 /* iTunesAPI-12.c in Sources */ = {isa = PBXBuildFile; fileRef = CAA3C4A613E65E3E00A4AC33 /* iTunesAPI-12.c */; };
+		CAA3C4AA13E65E3E00A4AC33 /* iTunesAPI-12.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA3C4A713E65E3E00A4AC33 /* iTunesAPI-12.h */; };
+		CAA3C4AB13E65E3E00A4AC33 /* iTunesVisualAPI-12.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA3C4A813E65E3E00A4AC33 /* iTunesVisualAPI-12.h */; };
+		CAA6DE6413DE90A400BE1E00 /* SettingsDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAA6DE6313DE90A400BE1E00 /* SettingsDialog.xib */; };
+		CAA6DE6813DE90F600BE1E00 /* MyWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA6DE6613DE90F600BE1E00 /* MyWindowController.h */; };
+		CAA6DE6913DE90F600BE1E00 /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA6DE6713DE90F600BE1E00 /* MyWindowController.m */; };
+		CAFF6BF409BE1787002D7702 /* iTunesAPI-20.h in Headers */ = {isa = PBXBuildFile; fileRef = CA2962DC092CDEC400AA0AA0 /* iTunesAPI-20.h */; };
+		CAFF6BF509BE1787002D7702 /* iTunesVisualAPI-20.h in Headers */ = {isa = PBXBuildFile; fileRef = CA2962DD092CDEC400AA0AA0 /* iTunesVisualAPI-20.h */; };
+		CAFF6BF609BE1787002D7702 /* ScriptSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = CA4F1889094C91E100B2825B /* ScriptSupport.h */; };
+		CAFF6BF709BE1787002D7702 /* Defines.h in Headers */ = {isa = PBXBuildFile; fileRef = CADB1574094F31AC00516654 /* Defines.h */; };
+		CAFF6BF809BE1787002D7702 /* Encrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = CADB1576094F31AC00516654 /* Encrypt.h */; };
+		CAFF6BF909BE1787002D7702 /* Global.h in Headers */ = {isa = PBXBuildFile; fileRef = CADB1577094F31AC00516654 /* Global.h */; };
+		CAFF6BFA09BE1787002D7702 /* License.h in Headers */ = {isa = PBXBuildFile; fileRef = CADB1579094F31AC00516654 /* License.h */; };
+		CAFF6BFE09BE1787002D7702 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		CAFF6C0309BE1787002D7702 /* NowPlaying.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAADA7050940F22A00E43571 /* NowPlaying.cpp */; };
+		CAFF6C0409BE1787002D7702 /* ScriptSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = CA4F1888094C91E100B2825B /* ScriptSupport.c */; };
+		CAFF6C0509BE1787002D7702 /* Encrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = CADB1575094F31AC00516654 /* Encrypt.c */; };
+		CAFF6C0609BE1787002D7702 /* License.c in Sources */ = {isa = PBXBuildFile; fileRef = CADB1578094F31AC00516654 /* License.c */; };
+		CAFF6C0E09BE1787002D7702 /* NowPlaying.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = CA4F1894094C923600B2825B /* NowPlaying.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA09F06313DD454A0057ED28 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		CA09F15B13DD455B0057ED28 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CA09F16913DD45F70057ED28 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		CA1FEC3D102A788200CBBB87 /* hmac_sha256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hmac_sha256.c; path = ../../Common/Src/hmac_sha256.c; sourceTree = SOURCE_ROOT; };
+		CA1FEC3E102A788200CBBB87 /* hmac_sha256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hmac_sha256.h; path = ../../Common/Src/hmac_sha256.h; sourceTree = SOURCE_ROOT; };
+		CA1FEC4A102A790200CBBB87 /* b64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = b64.c; path = ../../Common/Src/b64.c; sourceTree = SOURCE_ROOT; };
+		CA1FEC4B102A790200CBBB87 /* b64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = b64.h; path = ../../Common/Src/b64.h; sourceTree = SOURCE_ROOT; };
+		CA1FEC4C102A790200CBBB87 /* sha2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sha2.c; path = ../../Common/Src/sha2.c; sourceTree = SOURCE_ROOT; };
+		CA1FEC4D102A790200CBBB87 /* sha2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sha2.h; path = ../../Common/Src/sha2.h; sourceTree = SOURCE_ROOT; };
+		CA2962DC092CDEC400AA0AA0 /* iTunesAPI-20.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "iTunesAPI-20.h"; sourceTree = "<group>"; };
+		CA2962DD092CDEC400AA0AA0 /* iTunesVisualAPI-20.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "iTunesVisualAPI-20.h"; sourceTree = "<group>"; };
+		CA2D2B4513DD2173004D1F41 /* iTunesAPI-20.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iTunesAPI-20.cpp"; sourceTree = "<group>"; };
+		CA2D2B9313DD2645004D1F41 /* UserInterface.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = UserInterface.mm; sourceTree = "<group>"; };
+		CA2D2BB213DD276E004D1F41 /* NowPlaying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NowPlaying.h; sourceTree = "<group>"; };
+		CA4F1888094C91E100B2825B /* ScriptSupport.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ScriptSupport.c; sourceTree = "<group>"; };
+		CA4F1889094C91E100B2825B /* ScriptSupport.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ScriptSupport.h; sourceTree = "<group>"; };
+		CA4F1894094C923600B2825B /* NowPlaying.applescript */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.applescript; path = NowPlaying.applescript; sourceTree = "<group>"; };
+		CA5D355A162781AC008C335A /* Logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logger.m; sourceTree = "<group>"; };
+		CA5D355C1627829B008C335A /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		CA9C96DF111B3A8600945C3A /* hmac_sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hmac_sha1.c; path = ../../Common/Src/hmac_sha1.c; sourceTree = SOURCE_ROOT; };
+		CA9C96E0111B3A8600945C3A /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = ../../Common/Src/hmac.h; sourceTree = SOURCE_ROOT; };
+		CA9C96E1111B3A8600945C3A /* memxor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = memxor.c; path = ../../Common/Src/memxor.c; sourceTree = SOURCE_ROOT; };
+		CA9C96E2111B3A8600945C3A /* memxor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = memxor.h; path = ../../Common/Src/memxor.h; sourceTree = SOURCE_ROOT; };
+		CA9C96E3111B3A8600945C3A /* oauth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = oauth.c; path = ../../Common/Src/oauth.c; sourceTree = SOURCE_ROOT; };
+		CA9C96E4111B3A8600945C3A /* oauth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oauth.h; path = ../../Common/Src/oauth.h; sourceTree = SOURCE_ROOT; };
+		CA9C96E5111B3A8600945C3A /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sha1.c; path = ../../Common/Src/sha1.c; sourceTree = SOURCE_ROOT; };
+		CA9C96E6111B3A8600945C3A /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = ../../Common/Src/sha1.h; sourceTree = SOURCE_ROOT; };
+		CA9C96E7111B3A8600945C3A /* xmalloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xmalloc.c; path = ../../Common/Src/xmalloc.c; sourceTree = SOURCE_ROOT; };
+		CA9C96E8111B3A8600945C3A /* xmalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmalloc.h; path = ../../Common/Src/xmalloc.h; sourceTree = SOURCE_ROOT; };
+		CAA3C4A613E65E3E00A4AC33 /* iTunesAPI-12.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "iTunesAPI-12.c"; sourceTree = "<group>"; };
+		CAA3C4A713E65E3E00A4AC33 /* iTunesAPI-12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iTunesAPI-12.h"; sourceTree = "<group>"; };
+		CAA3C4A813E65E3E00A4AC33 /* iTunesVisualAPI-12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iTunesVisualAPI-12.h"; sourceTree = "<group>"; };
+		CAA6DE6313DE90A400BE1E00 /* SettingsDialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsDialog.xib; sourceTree = "<group>"; };
+		CAA6DE6613DE90F600BE1E00 /* MyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindowController.h; sourceTree = "<group>"; };
+		CAA6DE6713DE90F600BE1E00 /* MyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindowController.m; sourceTree = "<group>"; };
+		CAADA7050940F22A00E43571 /* NowPlaying.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; path = NowPlaying.cpp; sourceTree = "<group>"; };
+		CADB1574094F31AC00516654 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Defines.h; path = ../../Common/Src/Defines.h; sourceTree = SOURCE_ROOT; };
+		CADB1575094F31AC00516654 /* Encrypt.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = Encrypt.c; path = ../../Common/Src/Encrypt.c; sourceTree = SOURCE_ROOT; };
+		CADB1576094F31AC00516654 /* Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Encrypt.h; path = ../../Common/Src/Encrypt.h; sourceTree = SOURCE_ROOT; };
+		CADB1577094F31AC00516654 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Global.h; path = ../../Common/Src/Global.h; sourceTree = SOURCE_ROOT; };
+		CADB1578094F31AC00516654 /* License.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = License.c; path = ../../Common/Src/License.c; sourceTree = SOURCE_ROOT; };
+		CADB1579094F31AC00516654 /* License.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = License.h; path = ../../Common/Src/License.h; sourceTree = SOURCE_ROOT; };
+		CAFF6C1309BE1787002D7702 /* Info-Now_Playing.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Now_Playing.plist"; sourceTree = "<group>"; };
+		CAFF6C1409BE1787002D7702 /* Now Playing.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Now Playing.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFF6C0809BE1787002D7702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA09F06413DD454A0057ED28 /* OpenGL.framework in Frameworks */,
+				CA09F15C13DD455B0057ED28 /* Cocoa.framework in Frameworks */,
+				CA09F16A13DD45F70057ED28 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* iTunesXPlugIn */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+			);
+			name = iTunesXPlugIn;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				CA09F06313DD454A0057ED28 /* OpenGL.framework */,
+				CA09F15B13DD455B0057ED28 /* Cocoa.framework */,
+				CA09F16913DD45F70057ED28 /* Carbon.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CAA6DE6313DE90A400BE1E00 /* SettingsDialog.xib */,
+				CAFF6C1309BE1787002D7702 /* Info-Now_Playing.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CA5D355C1627829B008C335A /* Logger.h */,
+				CA5D355A162781AC008C335A /* Logger.m */,
+				CAA6DE6713DE90F600BE1E00 /* MyWindowController.m */,
+				CAA6DE6613DE90F600BE1E00 /* MyWindowController.h */,
+				CA2D2B9313DD2645004D1F41 /* UserInterface.mm */,
+				CA2D2BB213DD276E004D1F41 /* NowPlaying.h */,
+				CA4F1894094C923600B2825B /* NowPlaying.applescript */,
+				CAADA7050940F22A00E43571 /* NowPlaying.cpp */,
+				CA4F1888094C91E100B2825B /* ScriptSupport.c */,
+				CA4F1889094C91E100B2825B /* ScriptSupport.h */,
+				CAADA66A093E7EF500E43571 /* Common */,
+				CA2962DA092CDEC400AA0AA0 /* iTunesVisualAPI */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFF6C1409BE1787002D7702 /* Now Playing.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA2962DA092CDEC400AA0AA0 /* iTunesVisualAPI */ = {
+			isa = PBXGroup;
+			children = (
+				CAA3C4A613E65E3E00A4AC33 /* iTunesAPI-12.c */,
+				CAA3C4A713E65E3E00A4AC33 /* iTunesAPI-12.h */,
+				CAA3C4A813E65E3E00A4AC33 /* iTunesVisualAPI-12.h */,
+				CA2D2B4513DD2173004D1F41 /* iTunesAPI-20.cpp */,
+				CA2962DC092CDEC400AA0AA0 /* iTunesAPI-20.h */,
+				CA2962DD092CDEC400AA0AA0 /* iTunesVisualAPI-20.h */,
+			);
+			path = iTunesVisualAPI;
+			sourceTree = "<group>";
+		};
+		CAADA66A093E7EF500E43571 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CA9C96DF111B3A8600945C3A /* hmac_sha1.c */,
+				CA9C96E0111B3A8600945C3A /* hmac.h */,
+				CA9C96E1111B3A8600945C3A /* memxor.c */,
+				CA9C96E2111B3A8600945C3A /* memxor.h */,
+				CA9C96E3111B3A8600945C3A /* oauth.c */,
+				CA9C96E4111B3A8600945C3A /* oauth.h */,
+				CA9C96E5111B3A8600945C3A /* sha1.c */,
+				CA9C96E6111B3A8600945C3A /* sha1.h */,
+				CA9C96E7111B3A8600945C3A /* xmalloc.c */,
+				CA9C96E8111B3A8600945C3A /* xmalloc.h */,
+				CA1FEC4A102A790200CBBB87 /* b64.c */,
+				CA1FEC4B102A790200CBBB87 /* b64.h */,
+				CA1FEC4C102A790200CBBB87 /* sha2.c */,
+				CA1FEC4D102A790200CBBB87 /* sha2.h */,
+				CA1FEC3D102A788200CBBB87 /* hmac_sha256.c */,
+				CA1FEC3E102A788200CBBB87 /* hmac_sha256.h */,
+				CADB1574094F31AC00516654 /* Defines.h */,
+				CADB1575094F31AC00516654 /* Encrypt.c */,
+				CADB1576094F31AC00516654 /* Encrypt.h */,
+				CADB1577094F31AC00516654 /* Global.h */,
+				CADB1578094F31AC00516654 /* License.c */,
+				CADB1579094F31AC00516654 /* License.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CAFF6BF209BE1787002D7702 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFF6BF409BE1787002D7702 /* iTunesAPI-20.h in Headers */,
+				CAFF6BF509BE1787002D7702 /* iTunesVisualAPI-20.h in Headers */,
+				CAFF6BF609BE1787002D7702 /* ScriptSupport.h in Headers */,
+				CAFF6BF709BE1787002D7702 /* Defines.h in Headers */,
+				CAFF6BF809BE1787002D7702 /* Encrypt.h in Headers */,
+				CAFF6BF909BE1787002D7702 /* Global.h in Headers */,
+				CAFF6BFA09BE1787002D7702 /* License.h in Headers */,
+				CA1FEC40102A788200CBBB87 /* hmac_sha256.h in Headers */,
+				CA1FEC4F102A790200CBBB87 /* b64.h in Headers */,
+				CA1FEC51102A790200CBBB87 /* sha2.h in Headers */,
+				CA9C96EA111B3A8600945C3A /* hmac.h in Headers */,
+				CA9C96EC111B3A8600945C3A /* memxor.h in Headers */,
+				CA9C96EE111B3A8600945C3A /* oauth.h in Headers */,
+				CA9C96F0111B3A8600945C3A /* sha1.h in Headers */,
+				CA9C96F2111B3A8600945C3A /* xmalloc.h in Headers */,
+				CA2D2BB313DD276E004D1F41 /* NowPlaying.h in Headers */,
+				CAA6DE6813DE90F600BE1E00 /* MyWindowController.h in Headers */,
+				CAA3C4AA13E65E3E00A4AC33 /* iTunesAPI-12.h in Headers */,
+				CAA3C4AB13E65E3E00A4AC33 /* iTunesVisualAPI-12.h in Headers */,
+				CA5D355D1627829B008C335A /* Logger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CAFF6BF109BE1787002D7702 /* Now Playing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFF6C0F09BE1787002D7702 /* Build configuration list for PBXNativeTarget "Now Playing" */;
+			buildPhases = (
+				CAFF6BF209BE1787002D7702 /* Headers */,
+				CAFF6BFC09BE1787002D7702 /* Resources */,
+				CAFF6BFF09BE1787002D7702 /* Sources */,
+				CAFF6C0809BE1787002D7702 /* Frameworks */,
+				CAFF6C0C09BE1787002D7702 /* Rez */,
+				CAFF6C0D09BE1787002D7702 /* AppleScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Now Playing";
+			productInstallPath = "/Users/guillerm/Library/iTunes/iTunes Plug-ins";
+			productName = NowPlaying;
+			productReference = CAFF6C1409BE1787002D7702 /* Now Playing.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = CABE9501092BCB0A0079EC94 /* Build configuration list for PBXProject "NowPlaying" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* iTunesXPlugIn */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFF6BF109BE1787002D7702 /* Now Playing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFF6BFC09BE1787002D7702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFF6BFE09BE1787002D7702 /* InfoPlist.strings in Resources */,
+				CAA6DE6413DE90A400BE1E00 /* SettingsDialog.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		CAFF6C0C09BE1787002D7702 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFF6BFF09BE1787002D7702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFF6C0309BE1787002D7702 /* NowPlaying.cpp in Sources */,
+				CAFF6C0409BE1787002D7702 /* ScriptSupport.c in Sources */,
+				CAFF6C0509BE1787002D7702 /* Encrypt.c in Sources */,
+				CAFF6C0609BE1787002D7702 /* License.c in Sources */,
+				CA1FEC3F102A788200CBBB87 /* hmac_sha256.c in Sources */,
+				CA1FEC4E102A790200CBBB87 /* b64.c in Sources */,
+				CA1FEC50102A790200CBBB87 /* sha2.c in Sources */,
+				CA9C96E9111B3A8600945C3A /* hmac_sha1.c in Sources */,
+				CA9C96EB111B3A8600945C3A /* memxor.c in Sources */,
+				CA9C96ED111B3A8600945C3A /* oauth.c in Sources */,
+				CA9C96EF111B3A8600945C3A /* sha1.c in Sources */,
+				CA9C96F1111B3A8600945C3A /* xmalloc.c in Sources */,
+				CA2D2B9413DD2645004D1F41 /* UserInterface.mm in Sources */,
+				CAA6DE6913DE90F600BE1E00 /* MyWindowController.m in Sources */,
+				CAA3C49813E65D4100A4AC33 /* iTunesAPI-20.cpp in Sources */,
+				CAA3C4A913E65E3E00A4AC33 /* iTunesAPI-12.c in Sources */,
+				CA5D355B162781AC008C335A /* Logger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CABE9502092BCB0A0079EC94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/Library/iTunes/iTunes Plug-ins";
+				CURRENT_PROJECT_VERSION = 393.0;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "NS_BUILD_32_LIKE_64=1";
+				HEADER_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "Now Playing";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		CABE9503092BCB0A0079EC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/Library/iTunes/iTunes Plug-ins";
+				CURRENT_PROJECT_VERSION = 393.0;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_OPTIMIZATION_LEVEL = s;
+				HEADER_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "Now Playing";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		CAFF6C1009BE1787002D7702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "NS_BUILD_32_LIKE_64=1";
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = ../../Common/Src;
+				INFOPLIST_FILE = "Info-Now_Playing.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Now Playing";
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		CAFF6C1109BE1787002D7702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "NS_BUILD_32_LIKE_64=1";
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = ../../Common/Src;
+				INFOPLIST_FILE = "Info-Now_Playing.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Now Playing";
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CABE9501092BCB0A0079EC94 /* Build configuration list for PBXProject "NowPlaying" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABE9502092BCB0A0079EC94 /* Debug */,
+				CABE9503092BCB0A0079EC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CAFF6C0F09BE1787002D7702 /* Build configuration list for PBXNativeTarget "Now Playing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFF6C1009BE1787002D7702 /* Debug */,
+				CAFF6C1109BE1787002D7702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

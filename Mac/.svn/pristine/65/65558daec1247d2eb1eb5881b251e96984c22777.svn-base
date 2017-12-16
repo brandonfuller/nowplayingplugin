@@ -1,0 +1,5 @@
+#!/bin/sh
+
+kill `ps ax | grep '/Applications/iTunes.app/Contents/MacOS/iTunes' | grep -v grep | awk '{print $1}'`
+
+exit 0

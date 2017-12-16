@@ -1,0 +1,17 @@
+END USER LICENSE AGREEMENT FOR NOW PLAYING: A WINDOWS MEDIA PLAYER PLUGIN
+
+IMPORTANT -- READ CAREFULLY: This End User License Agreement ("EULA") is a legal agreement between you (either an individual or a single entity) and Brandon Fuller for the software product identified above, which includes computer software and associated media and printed materials, and may include "online" or electronic documentation ("SOFTWARE"). By installing, copying, or otherwise using the SOFTWARE, you agree to be bound by the terms of this EULA. If you do not agree to the terms of this EULA, promptly discard the SOFTWARE.
+
+The SOFTWARE is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. The SOFTWARE is licensed, not sold.
+
+This EULA grants you the following rights:
+
+1. Distribution of Evaluation Edition
+
+You may copy the Evaluation Edition of this software and documentation as you wish, and give exact copies of the original Evaluation Edition to anyone, and distribute the Evaluation Edition of the software and documentation in its unmodified form via electronic means. But you should not charge or request donations for any such copies however made, or from distributing the software and/or documentation with other products without the author's written permission.
+
+2. Use of Registered Edition
+
+One registered copy of SOFTWARE may either be used by a single person who uses the software personally on one or more computers, or installed on a single workstation used non-simultaneously by multiple people, but not both. You may access the registered edition of SOFTWARE through a network, provided that you have obtained individual licenses for the software covering all workstations that will access the software through the network. You should have received a license key which is necessary to enable the registered edition of the SOFTWARE. This code must be kept in the strictest confidence and must not be given or revealed to anyone but the registered owner.
+
+NO WARRANTY. THE PRODUCT IS DISTRIBUTED "AS IS" AND WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTIES EITHER EXPRESSED OR IMPLIED. THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING OR MISUSING THIS SOFTWARE.

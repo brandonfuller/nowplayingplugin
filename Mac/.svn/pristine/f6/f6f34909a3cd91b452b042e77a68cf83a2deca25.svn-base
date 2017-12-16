@@ -1,0 +1,9 @@
+#!/bin/sh
+
+CHECK=`ps ax | grep '/Applications/iTunes.app/Contents/MacOS/iTunes' | grep -v grep`
+
+if [ "$CHECK" != "" ]; then
+	exit 50
+fi
+
+exit 0

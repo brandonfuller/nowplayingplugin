@@ -1,0 +1,58 @@
+#!/bin/sh
+
+cd Src
+
+# See version
+/Developer/usr/bin/agvtool what-version
+/Developer/usr/bin/agvtool what-marketing-version
+
+# Build the project
+/Developer/usr/bin/xcodebuild -configuration Debug clean build
+/Developer/usr/bin/xcodebuild -configuration Release clean build
+
+# Build the installer
+#/Developer/Applications/Utilities/PackageMaker.app/Contents/MacOS/PackageMaker -d ./NowPlaying.pmdoc -o ./build/NowPlaying.pkg -v
+freeze -v NowPlaying.packproj
+
+# Remove previous copy
+rm -f ./build/NowPlaying.dmg
+
+# Create the image
+hdiutil create ./build/NowPlaying.dmg -size 01m -fs HFS+ -volname NowPlaying
+
+# mount the image and store the device name into dev_handle
+dev_handle=`hdid build/NowPlaying.dmg | grep Apple_HFS | perl -e '\$_=<>; /^\\/dev\\/(disk.)/; print \$1'`
+
+# copy the software onto the disk
+ditto -v -rsrcFork "build/NowPlaying.pkg" "/Volumes/NowPlaying/NowPlaying.pkg"
+
+# unmount the volume
+hdiutil detach $dev_handle
+
+# compress the image
+hdiutil convert build/NowPlaying.dmg -format UDZO -o build/NowPlaying.udzo.dmg
+
+# remove the uncompressed image
+rm -f build/NowPlaying.dmg
+
+# move the compressed image to take its place
+mv build/NowPlaying.udzo.dmg build/NowPlaying.dmg
+
+# Internet enable the download so the .dmg is auto-extracted
+hdiutil internet-enable -yes build/NowPlaying.dmg
+
+# Figure out the MD5
+md5 -q build/NowPlaying.dmg > build/NowPlaying.dmg.md5
+
+# Upload the file
+sftp admin@brandon.fuller.name << END_SCRIPT
+cd /www/vhosts/brandon.fuller.name/httpdocs/downloads/nowplaying/
+lcd build
+put NowPlaying.dmg
+put NowPlaying.dmg.md5
+lcd ..
+quit
+END_SCRIPT
+exit
+
+cd ..

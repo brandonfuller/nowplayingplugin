@@ -1,0 +1,274 @@
+
+#define PRODUCT_NAME "Now Playing"
+
+#define UPDATE_HOSTNAME "brandon.fuller.name"
+#define UPDATE_VERSION_TAG_BEGIN "<su:version>"
+#define UPDATE_VERSION_TAG_END "</su:version>"
+
+#define MY_REGISTRY_VALUE_INIT "Initialize"
+#define MY_REGISTRY_VALUE_GUID "GUID"
+#define MY_REGISTRY_VALUE_CONFIGURED "Configured"
+#define MY_REGISTRY_VALUE_FILE "File"
+#define MY_REGISTRY_VALUE_LICENSE_KEY "License Key"
+#define MY_REGISTRY_VALUE_EMAIL "E-mail"
+#define MY_REGISTRY_VALUE_STYLESHEET "Style Sheet"
+#define MY_REGISTRY_VALUE_PROTOCOL "Upload Protocol"
+#define MY_REGISTRY_VALUE_FTP_PASSIVE "FTP Passive"
+#define MY_REGISTRY_VALUE_HOST "Host"
+#define MY_REGISTRY_VALUE_USER "User"
+#define MY_REGISTRY_VALUE_PASSWORD "Password"
+#define MY_REGISTRY_VALUE_PATH "Path"
+#define MY_REGISTRY_VALUE_TRACKBACK_URL "TrackBack URL"
+#define MY_REGISTRY_VALUE_TRACKBACK_PASSPHRASE "TrackBack Passphrase"
+#define MY_REGISTRY_VALUE_PING_EXTRA_INFO "Ping Extra Info"
+#define MY_REGISTRY_VALUE_PLAYLIST_LENGTH "Playlist Length"
+#define MY_REGISTRY_VALUE_PUBLISH_STOP "Publish Stop"
+#define MY_REGISTRY_VALUE_ARTWORK_EXPORT "Artwork Export"
+#define MY_REGISTRY_VALUE_CLEAR_PLAYLIST "Clear Playlist"
+#define MY_REGISTRY_VALUE_DELAY "Playlist Buffer Delay"
+#define MY_REGISTRY_VALUE_SKIPSHORT "Skip Shorter Than"
+#define MY_REGISTRY_VALUE_SKIPKINDS "Skip Kinds"
+#define MY_REGISTRY_VALUE_UPDATE_TIMESTAMP "Last Software Update Check"
+#define MY_REGISTRY_VALUE_AMAZON_LOCALE "Amazon Locale"
+#define MY_REGISTRY_VALUE_AMAZON_ASSOCIATE "Amazon Associate ID"
+#define MY_REGISTRY_VALUE_APPLE_ENABLED "Apple Enabled"
+#define MY_REGISTRY_VALUE_APPLE_ASSOCIATE "Apple Associate ID"
+#define MY_REGISTRY_VALUE_PLAYLIST_CACHE "Playlist Cache"
+#define MY_REGISTRY_VALUE_PLAYLIST_CACHE_INDEX "Playlist Cache Index"
+#define MY_REGISTRY_VALUE_XML_CDATA "Use CDATA in XML"
+#define MY_REGISTRY_VALUE_XML_ENCODING "XML Encoding"
+#define MY_REGISTRY_VALUE_AMAZON_ENABLED "Amazon Enabled"
+#define MY_REGISTRY_VALUE_AMAZON_USE_ASIN "Amazon Use ASIN"
+#define MY_REGISTRY_VALUE_LOGGING "Logging"
+#define MY_REGISTRY_VALUE_ARTWORK_UPLOAD "Artwork Upload"
+#define MY_REGISTRY_VALUE_ARTWORK_WIDTH "Artwork Width"
+#define MY_REGISTRY_VALUE_TWITTER_ENABLED "Twitter Enabled"
+#define MY_REGISTRY_VALUE_TWITTER_USERNAME "Twitter Username"
+#define MY_REGISTRY_VALUE_TWITTER_PASSWORD "Twitter Password"
+#define MY_REGISTRY_VALUE_TWITTER_MESSAGE "Twitter Message"
+#define MY_REGISTRY_VALUE_TWITTER_KEY "Twitter Key"
+#define MY_REGISTRY_VALUE_TWITTER_SECRET "Twitter Secret"
+#define MY_REGISTRY_VALUE_TWITTER_SCREENNAME "Twitter Screen Name"
+#define MY_REGISTRY_VALUE_TWITTER_RATE_LIMIT_MINUTES "Twitter Rate Limit"
+#define MY_REGISTRY_VALUE_TWITTER_LATEST "Twitter Latest"
+#define MY_REGISTRY_VALUE_FACEBOOK_ENABLED "Facebook Enabled"
+#define MY_REGISTRY_VALUE_FACEBOOK_RATE_LIMIT_MINUTES "Facebook Rate Limit Minutes"
+#define MY_REGISTRY_VALUE_FACEBOOK_MESSAGE "Facebook Caption"
+#define MY_REGISTRY_VALUE_FACEBOOK_ATTACHMENT_DESCRIPTION "Facebook Attachment Description"
+#define MY_REGISTRY_VALUE_FACEBOOK_SESSION_KEY "Facebook Access Token"
+#define MY_REGISTRY_VALUE_FACEBOOK_LATEST "Facebook Latest"
+#define MY_REGISTRY_VALUE_FACEBOOK_SCREENNAME "Facebook Screenname"
+#define MY_REGISTRY_VALUE_FACEBOOK_UID "Facebook UID v3"
+#define MY_REGISTRY_VALUE_EXPORT_TIMESTAMP "Export Timestamp"
+
+#define MY_SECRET_KEY "K2jv98f"
+
+#define GOOGLE_ANALYTICS_PROTOCOL "http"
+#define GOOGLE_ANALYTICS_HOSTNAME "www.google-analytics.com"
+#define GOOGLE_ANALYTICS_PATH "/__utm.gif"
+#define GOOGLE_ANALYTICS_UTMAC "MO-2552088-7"
+#define GOOGLE_ANALYTICS_UTMWV "4.9.2"
+#define GOOGLE_ANALYTICS_UTMHN "nowplayingplugin.com"
+#define GOOGLE_ANALYTICS_UTMP "/events"
+#define GOOGLE_ANALYTICS_UTMCC "__utma%3D999.999.999.999.999.1%3B"
+
+#define GOOGLE_ANALYTICS_EVENT_INSTALL "Install"
+#define GOOGLE_ANALYTICS_EVENT_LAUNCH "Launch"
+#define GOOGLE_ANALYTICS_EVENT_PLAY "Play"
+#define GOOGLE_ANALYTICS_EVENT_TWEET "Tweet"
+#define GOOGLE_ANALYTICS_EVENT_FACEBOOK "Facebook"
+#define GOOGLE_ANALYTICS_EVENT_PING "Ping"
+#define GOOGLE_ANALYTICS_EVENT_FTP "FTP"
+#define GOOGLE_ANALYTICS_EVENT_SFTP "SFTP"
+#define GOOGLE_ANALYTICS_EVENT_AMAZON "Amazon"
+#define GOOGLE_ANALYTICS_EVENT_APPLE "Apple"
+
+#define GOOGLE_ANALYTICS_CATEGORY_MAC "Mac"
+#define GOOGLE_ANALYTICS_CATEGORY_ITUNES "iTunes"
+#define GOOGLE_ANALYTICS_CATEGORY_WINAMP "Winamp"
+#define GOOGLE_ANALYTICS_CATEGORY_WMP "WMP"
+
+#define SOFTWARE_UPDATE_CHECK_INTERVAL_DAYS 7
+
+#define URL_ENCODE_SAFE_CHARS_RFC3986 "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_.~"
+
+#define AMAZON_LOCALE_LABEL_US "us"
+#define AMAZON_LOCALE_LABEL_UK "uk"
+#define AMAZON_LOCALE_LABEL_JP "jp"
+#define AMAZON_LOCALE_LABEL_DE "de"
+#define AMAZON_LOCALE_LABEL_CA "ca"
+#define AMAZON_LOCALE_LABEL_FR "fr"
+
+#define HTTP_METHOD_GET "GET"
+#define HTTP_METHOD_POST "POST"
+
+#define UPLOAD_PROTOCOL_LABEL_NONE "(Off)"
+#define UPLOAD_PROTOCOL_LABEL_FTP "FTP"
+#define UPLOAD_PROTOCOL_LABEL_SFTP "SFTP"
+
+#define MY_AMAZON_DEV_TOKEN "D19SL3MIFFPEJU"
+#define MY_AMAZON_ACCESS_KEY_ID "03AKJ1J6S0FY8K0WRER2"
+#define MY_AMAZON_SECRET_KEY "cWU1pu4EqcwIokhs8/H7fIrmbIUtRcFcpFOGdEFv"
+#define MY_AMAZON_ASSOCIATE_ID "nowplaplu-20"
+
+#define DEFAULT_APPLE_ASSOCIATE "11lp2h"
+#define APPLE_LOOKUP_HOSTNAME "itunes.apple.com"
+#define APPLE_LOOKUP_PATH "/WebObjects/MZStoreServices.woa/ws/wsSearch?country=US&media=music&entity=musicTrack&limit=1&version=2&output=json&term="
+#define APPLE_LOOKUP_ENCODING "UTF-8"
+
+#define MARKER_APPLE_SONG_START  "\"trackViewUrl\":\""
+#define MARKER_APPLE_SONG_STOP   "\","
+
+#define XML_ENCODING_LABEL_UTF_8 "UTF-8"
+#define XML_ENCODING_LABEL_ISO_8859_1 "ISO-8859-1"
+
+#define LOGGING_LABEL_NONE "(None)"
+#define LOGGING_LABEL_ERROR "Error"
+#define LOGGING_LABEL_INFO "Info"
+#define LOGGING_LABEL_DEBUG "Debug"
+
+#define LOGGING_NONE 1
+#define LOGGING_ERROR 2
+#define LOGGING_INFO 3
+#define LOGGING_DEBUG 4
+
+#define DEFAULT_PUBLISH_STOP 0
+#define DEFAULT_SKIPSHORT_SECONDS 0
+#define DEFAULT_CLEAR_PLAYLIST 0
+#define DEFAULT_PLAYLIST_LENGTH 1
+#define DEFAULT_SECONDS_DELAY 15
+#define DEFAULT_AMAZON_ENABLED 1
+#define DEFAULT_AMAZON_USE_ASIN 0
+#define DEFAULT_ARTWORK_EXPORT 0
+#define DEFAULT_ARTWORK_UPLOAD 0
+#define DEFAULT_ARTWORK_WIDTH 160
+#define DEFAULT_APPLE_ENABLED 0
+#define DEFAULT_TWITTER_ENABLED 0
+
+#define TRIAL_LIMIT 5
+
+#define TIMEZONE_FORMAT_GMT "%4d-%02d-%02dT%02d:%02d:%02dZ"
+#define TIMEZONE_FORMAT_GMT_AMAZON "%4d-%02d-%02dT%02d%%3A%02d%%3A%02dZ"
+#define TIMEZONE_FORMAT_ALL "%4d-%02d-%02dT%02d:%02d:%02d%s%02d:%02d"
+
+#define PROP_UNSUPPORTED -5
+
+#define MEDIA_PLAYER_UNKNOWN 0
+#define MEDIA_PLAYER_ITUNES 1
+#define MEDIA_PLAYER_WMP 2
+#define MEDIA_PLAYER_YAHOO 3
+#define MEDIA_PLAYER_WINAMP 4
+
+#define BUF_LEN_BIG 1024
+#define MAX_URL 1024
+
+#define TAG_TITLE "title"
+#define TAG_ARTIST "artist"
+#define TAG_ALBUM "album"
+#define TAG_GENRE "genre"
+#define TAG_KIND "kind"
+#define TAG_TRACK "track"
+#define TAG_NUMTRACKS "numTracks"
+#define TAG_YEAR "year"
+#define TAG_COMMENTS "comments"
+#define TAG_TIME "time"
+#define TAG_BITRATE "bitrate"
+#define TAG_RATING "rating"
+#define TAG_DISC "disc"
+#define TAG_NUMDISCS "numDiscs"
+#define TAG_PLAYCOUNT "playCount"
+#define TAG_COMPILATION "compilation"
+#define TAG_URLAMAZON "urlAmazon"
+#define TAG_URLAPPLE "urlApple"
+#define TAG_IMAGE "image"
+#define TAG_IMAGESMALL "imageSmall"
+#define TAG_IMAGELARGE "imageLarge"
+#define TAG_COMPOSER "composer"
+#define TAG_GROUPING "grouping"
+#define TAG_URLSOURCE "urlSource"
+#define TAG_FILE "file"
+#define TAG_ARTWORKID "artworkID"
+#define TAG_IMAGELOCALSMALL "imageLocalSmall"
+#define TAG_IMAGELOCALLARGE "imageLocalLarge"
+
+#define TWITTER_CONSUMER_KEY "16yzZC4Bz84NalYLdvvfA"
+#define TWITTER_SECRET_KEY "lO093Z6WDv3JI3zgPOh8SsxeJO17QI2lwgjRNsUvNIY"
+#define TWITTER_REQUEST_TOKEN_URL "https://api.twitter.com/oauth/request_token"
+#define TWITTER_AUTHORIZE_URL "https://api.twitter.com/oauth/authorize"
+#define TWITTER_AUTHORIZE_MESSAGE "A web browser will now be opened so you can login to Twitter. After login, press the ALLOW button on the Twitter web site.  Twitter will then give you a PIN code. Copy the PIN and return to this plugin to complete the configuration."
+#define TWITTER_ACCESS_TOKEN_URL "https://api.twitter.com/oauth/access_token"
+#define TWITTER_UPDATE_URL "https://api.twitter.com/1.1/statuses/update.json"
+#define TWITTER_RATE_LIMIT_MINUTES_DEFAULT 0
+#define TWITTER_POST_VALUE "status"
+#define TWITTER_TOKEN_SCREENNAME "screen_name"
+#define TWITTER_MESSAGE_PIN_REQUIRED "You must enter a PIN to continue."
+#define TWITTER_MESSAGE_DEFAULT "Listening to - <artist> ~~ <title> #nowplaying"
+#define TWITTER_MESSAGE_AUTHORIZATION_FAILED "Unable to authorize with Twitter at this time."
+#define TWITTER_MESSAGE_ACCESS_FAILED "PIN was incorrect or unable to verify with Twitter at this time."
+#define TWITTER_MESSAGE_SUCCESS "Twitter authorization successfully completed!"
+
+#define TWITTER_TAG_TITLE "<title>"
+#define TWITTER_TAG_ARTIST "<artist>"
+#define TWITTER_TAG_ALBUM "<album>"
+#define TWITTER_TAG_GENRE "<genre>"
+#define TWITTER_TAG_KIND "<kind>"
+#define TWITTER_TAG_TRACK "<track>"
+#define TWITTER_TAG_NUMTRACKS "<numTracks>"
+#define TWITTER_TAG_YEAR "<year>"
+#define TWITTER_TAG_COMMENTS "<comments>"
+#define TWITTER_TAG_TIME "<time>"
+#define TWITTER_TAG_BITRATE "<bitrate>"
+#define TWITTER_TAG_RATING "<rating>"
+#define TWITTER_TAG_DISC "<disc>"
+#define TWITTER_TAG_NUMDISCS "<numDiscs>"
+#define TWITTER_TAG_PLAYCOUNT "<playCount>"
+#define TWITTER_TAG_COMPOSER "<composer>"
+#define TWITTER_TAG_GROUPING "<grouping>"
+#define TWITTER_TAG_FILE "<file>"
+#define TWITTER_TAG_IMAGE "<image>"
+#define TWITTER_TAG_IMAGESMALL "<imageSmall>"
+#define TWITTER_TAG_IMAGELARGE "<imageLarge>"
+#define TWITTER_TAG_URLAMAZON "<urlAmazon>"
+#define TWITTER_TAG_AMAZONMATCH_START "<hasAmazon>"
+#define TWITTER_TAG_AMAZONMATCH_STOP "</hasAmazon>"
+
+#define FACEBOOK_PROTOCOL "https"
+#define FACEBOOK_HOSTNAME "api.facebook.com"
+#define FACEBOOK_HOSTNAME_GRAPH "graph.facebook.com"
+#define FACEBOOK_PATH "/method/"
+#define FACEBOOK_PATH_FEED "feed"
+#define FACEBOOK_API_KEY "b9e104da4748494c947b4c87a83f7c95"
+#define FACEBOOK_API_SECRET "43ff22aee67bac4d334d277a4a361cf1"
+#define FACEBOOK_APP_ID "nowplayingtool"
+#define FACEBOOK_MESSAGE_DEFAULT "I am listening to <title> by <artist>!"
+#define FACEBOOK_ATTACHMENT_DESCRIPTION_DEFAULT ""
+#define FACEBOOK_MESSAGE_ADD "A web browser will now be opened so you can login to Facebook and authorize this application. Once completed, return here."
+#define FACEBOOK_URL_ADD "http://nowplayingplugin.com/facebook/add/?token="
+#define FACEBOOK_AUTHORIZE_HOSTNAME "nowplayingplugin.com"
+#define FACEBOOK_AUTHORIZE_PATH "/facebook/authorize/?state="
+#define FACEBOOK_ACTION_STATUS "status.set"
+#define FACEBOOK_ACTION_STREAM "stream.publish"
+#define FACEBOOK_ACTION_INFO "users.getInfo"
+#define FACEBOOK_ACTION_USER "users.getLoggedInUser"
+#define FACEBOOK_PARAMETER_STATUS "status"
+#define FACEBOOK_PARAMETER_PICTURE "picture"
+#define FACEBOOK_PARAMETER_MESSAGE "message"
+#define FACEBOOK_PARAMETER_NAME "name"
+#define FACEBOOK_PARAMETER_CAPTION "caption"
+#define FACEBOOK_PARAMETER_LINK "link"
+#define FACEBOOK_PARAMETER_ACTIONS "actions"
+#define FACEBOOK_PARAMETER_PROPERTIES "properties"
+#define FACEBOOK_PARAMETER_ATTACHMENT "attachment"
+#define FACEBOOK_PARAMETER_ACTIONLINK "action_links"
+#define FACEBOOK_RATE_LIMIT_MINUTES_DEFAULT 360
+#define FACEBOOK_MESSAGE_VERIFY_SUCCESS "Facebook authorization successfully completed!"
+#define FACEBOOK_RESPONSE_ERROR_MESSAGE "error_msg"
+#define FACEBOOK_RESPONSE_STREAM_PUBLISH "stream_publish_response"
+#define FACEBOOK_RESPONSE_STATUS_SET "status_set_response"
+#define FACEBOOK_RESPONSE_SESSION_KEY "session_key"
+#define FACEBOOK_RESPONSE_NAME "name"
+#define FACEBOOK_RESPONSE_UID "users_getLoggedInUser_response"
+#define FACEBOOK_RATE_LIMIT_MIN 0
+
+#define MESSAGE_INVALID_RATE_LIMIT "Invalid \"Rate Limit\". Please enter a number."
+#define MESSAGE_INVALID_RATE_LIMIT_FACEBOOK "Facebook Rate Limit must be 30 minutes greater. We are all trying to avoid being classified as spammy which will cause Facebook to shutdown this plugin once again."

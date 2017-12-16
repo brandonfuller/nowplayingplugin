@@ -1,0 +1,34 @@
+HKCR
+{
+	NoRemove CLSID
+	{
+		ForceRemove {5098F2B5-7326-42dd-86C7-DB99EEE4AA34} = s 'NowPlaying Class'
+		{
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+		}
+	}
+}
+HKEY_LOCAL_MACHINE
+{
+    NoRemove SOFTWARE
+    {
+        NoRemove Microsoft
+        {
+            NoRemove MediaPlayer
+            {
+                NoRemove UIPlugins
+                {
+                    ForceRemove {5098F2B5-7326-42dd-86C7-DB99EEE4AA34}
+                    {
+                        val FriendlyName = s 'res://NowPlaying.dll/RT_STRING/#201'
+                        val Description = s 'res://NowPlaying.dll/RT_STRING/#202'
+                        val Capabilities = d '3758096385'
+                    }
+                }
+            }
+        }
+    }
+}
